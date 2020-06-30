@@ -1,15 +1,23 @@
+
+html {
+  font-family: 'Avenir';
+  padding: 3em 2em;
+  font-size: 18px;
+  background: rgb(216, 201, 186);
+  /* color: #aaa */
+}
 body {
     background: rgb(216, 201, 186)
     
 }
 .contact {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-end;
-    align-content: flex-end;
-    top: 100; 
-    left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  align-content: flex-end;
+  top: 100; 
+  left: 0;
 }
 .icon {
     height: 20px;
@@ -50,6 +58,7 @@ body {
     color: white;
     background-color: transparent;
     text-decoration: none;
+    font-size: 16px;
   }
 
   .footer {
@@ -67,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: left;
-    width: 60%;
+    width: 65%;
     padding: 20px 20px;
 }
 
@@ -99,7 +108,7 @@ body {
     justify-content: center;
     align-items: center;
     align-self: flex-end;
-    padding: 70px 80px 40px 80px;
+    padding: 20px 80px;
     color: rgb(95, 77, 77);
 }
 
@@ -119,4 +128,15 @@ body {
     color: black;
     background-color: rgb(235, 217, 139);
     /* text-decoration: underline; */
+  }
+
+  .extra {
+    font-size: 12px;
+    display:flex;
+    justify-content: center;
+  }
+
+  .extra a:hover {
+    color: black;
+    background-color: rgba(255, 255, 255, 0.521);
   }

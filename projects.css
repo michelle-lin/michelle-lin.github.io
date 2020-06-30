@@ -1,3 +1,11 @@
+html {
+    font-family: 'Avenir';
+    padding: 3em 2em;
+    font-size: 18px;
+    background: rgb(216, 201, 186);
+    /* color: #aaa */
+  }
+
 body {
     background: rgb(216, 201, 186)
     
@@ -8,7 +16,7 @@ body {
     justify-content: center;
     align-items: flex-end;
     align-content: flex-end;
-    top: 100; 
+    /* top: 100;  */
     left: 0;
 }
 .icon {
@@ -50,6 +58,7 @@ body {
     color: white;
     background-color: transparent;
     text-decoration: none;
+    font-size: 16px;
   }
 
   .footer {
@@ -67,7 +76,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    padding: 70px 80px 40px 80px;
+    padding: 40px 80px;
     color: rgb(95, 77, 77);
     /* width: 75% */
 }
@@ -82,8 +91,8 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 20px;
-    width: 28%;
+    margin: 15px 15px 5px 15px;
+    width: 30%;
     /* background-color: #f2f2f2; */
     /* opacity: 50%; */
 }
